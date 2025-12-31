@@ -1,0 +1,9 @@
+# Root ignores
+node_modules/
+.env
+.env.*
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
