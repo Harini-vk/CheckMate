@@ -1,0 +1,111 @@
+/* --- FOOTER STYLES --- */
+
+.main-footer {
+    width: 100%;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 40px 20px 0; /* Padding top for separation */
+    margin-top: 50px; /* Separates the footer from the main content */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+
+.footer-section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Media query for tablet/desktop layout (aligns sections side-by-side) */
+@media (min-width: 768px) {
+    .footer-section {
+        width: 22%; /* Approx. 4 sections per row */
+        margin-bottom: 0;
+    }
+    .footer-section--about {
+        width: 30%; /* Give more space to the main section */
+    }
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #aaa;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footer-section a:hover {
+    color: #00bcd4; /* Accent color for hover */
+}
+
+/* Contact and Social Links */
+.footer-section--contact p a {
+    font-weight: 600;
+}
+
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #00bcd4;
+}
+
+/* Bottom Copyright Section */
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #666; 
+    margin: 0;
+}

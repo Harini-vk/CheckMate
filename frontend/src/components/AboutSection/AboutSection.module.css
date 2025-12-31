@@ -1,0 +1,79 @@
+.aboutContainer {
+    padding: 100px 80px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.mainTitle {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 60px;
+}
+
+.missionCard {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    max-width: 1000px;
+    margin: 0 auto 80px auto;
+}
+
+.missionTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.missionText {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.commitmentGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.commitmentCard {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+    /* Similar style to the features card to keep consistency */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+    /* This style will need real icons (e.g., from react-icons) */
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.cardDescription {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+}

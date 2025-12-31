@@ -1,0 +1,156 @@
+.contactContainer {
+    padding: 100px 80px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.mainTitle {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 60px;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; /* Form takes more space than info */
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* --- Contact Form Styling --- */
+
+.formCard {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contactForm label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+    border-color: #000;
+    outline: none;
+}
+
+.contactForm textarea {
+    resize: none;
+}
+
+.sendButton {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.sendButton:hover {
+    background-color: #333;
+}
+
+.sendButton span {
+    margin-right: 10px;
+}
+
+/* --- Info Column Styling --- */
+
+.infoColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoCard, .faqCard {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: flex-start;
+}
+
+.infoIcon {
+    font-size: 24px;
+    margin-right: 15px;
+    padding-top: 5px; /* Alignment adjustment */
+}
+
+.infoTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.infoDetail {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.emailLink, .forumLink {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.emailLink:hover, .forumLink:hover {
+    border-bottom: 1px solid #000;
+}
+
+/* FAQ Card Specifics */
+.faqCard {
+    display: block;
+}
+
+.faqList {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #444;
+}
+
+.faqList li {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# ML / Model files (CRITICAL)
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Uploaded / generated files
+uploads/
+logs/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/

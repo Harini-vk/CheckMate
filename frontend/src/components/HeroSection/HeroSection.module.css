@@ -1,0 +1,115 @@
+/*
+  NOTE: For the chess background, save your screenshot (or a similar image)
+  as `chess_bg.jpg` in your `src/assets` folder.
+*/
+.heroContainer {
+    /* Replace 'chess_bg.jpg' with the actual path to your image */
+    background-image: url('../../assets/chess_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333; /* Dark text for contrast */
+}
+
+/* Optional: Overlay to adjust visibility/contrast of the background image */
+.heroContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Light overlay */
+}
+
+.contentOverlay {
+    position: relative; /* Brings content above the overlay */
+    z-index: 5;
+    max-width: 800px;
+    padding-top: 50px; /* Space for the fixed nav bar */
+}
+
+.mainHeading {
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.subText {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 40px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.btnDark, .btnLight {
+    padding: 14px 30px;
+    border: 2px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.btnDark {
+    background-color: #000;
+    color: #fff;
+}
+
+.btnDark:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.btnLight {
+    background-color: #fff;
+    color: #000;
+}
+
+.btnLight:hover {
+    background-color: #f0f0f0;
+}
+
+.statsGroup {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 30px;
+}
+
+.statItem {
+    text-align: center;
+}
+
+.statValue {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.statLabel {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}

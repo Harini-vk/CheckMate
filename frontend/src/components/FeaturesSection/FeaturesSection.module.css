@@ -1,0 +1,59 @@
+.featuresContainer {
+    padding: 100px 80px;
+    background-color: #f7f7f7; /* Light background for separation */
+    text-align: center;
+}
+
+.mainTitle {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featureCard {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.featureCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #000; /* You'd typically use a specific brand color here */
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.cardDescription {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+}

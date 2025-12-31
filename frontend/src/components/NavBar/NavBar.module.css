@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: transparent; /* Transparent background */
+    color: #000;
+    position: absolute; /* Position over the hero image */
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.checkmark {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.navLinksContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navLink:hover {
+    color: #000;
+}
+
+.tryNowButton {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.tryNowButton:hover {
+    background-color: #333;
+}
